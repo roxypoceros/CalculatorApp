@@ -15,7 +15,7 @@ function Button(props) {
 
 /*     Con template literals creo clase mas elaborada para  
     decidir cual va a ser la clase del botón, operador o num:
-    button-container es una clase fija (para CSS),
+    button-container cdes una clase fija (para CSS),
     operator sólo se agrega si el valor del children representa
     un operador /+-*
     La función isOperator debe dar true/false para decidir 
