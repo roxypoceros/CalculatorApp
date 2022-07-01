@@ -1,6 +1,7 @@
 import './App.css';
 import Button from './components/Button';
 import Screen from './components/Screen';
+import BtnClear from './components/BtnClear';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
           <Button>/</Button>
         </div>
         <div className="row" >
-
+          <BtnClear>Clear</BtnClear>
         </div>
       </div>
 
