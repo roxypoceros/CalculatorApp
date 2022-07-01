@@ -1,0 +1,26 @@
+.button-container{
+    height: 83px;
+    display: flex;
+    /* propiedad de longitud flexible, 
+    cuanto se puede expandir y encoger el 
+    elemento dependiendo de su contenedor. 
+    Es 1 1 para que se distribuya en forma equitativa */
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: white ;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    /* para que texto no se pueda seleccionar: */
+    user-select: none;
+}
+
+.operator{
+background-color: #00471b;
+}
+

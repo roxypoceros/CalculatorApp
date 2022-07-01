@@ -6,13 +6,15 @@ function App() {
     <div className="App">
       <div className="calc-container">
         {/* filas de calculadora */}
-      <div className="row" >
-        <Button>1</Button>
-      </div>
-      <div className="row" ></div>
-      <div className="row" ></div>
-      <div className="row" ></div>
-      <div className="row" ></div>
+        <div className="row" >
+          <Button>1</Button>
+          <Button>+</Button>
+
+        </div>
+        <div className="row" ></div>
+        <div className="row" ></div>
+        <div className="row" ></div>
+        <div className="row" ></div>
       </div>
 
 
