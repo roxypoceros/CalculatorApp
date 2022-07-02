@@ -20,13 +20,13 @@ function Button(props) {
     Al final usamos el método trim para quitar espacios en blanco 
     antes o después de un string. TrimEnd es para el final*/
     <div
-    className={`button-container ${isOperator(props.children) ? "operator":""}`.trimEnd()}
-    /* El event listener se agrega así para agregar el valor del botón
-  a la pantalla. 
-  handleClick es el nombre del prop que le pasamos desde App.
-  Al hacer click llama a una función anónima que estamos creando */
-    onClick={() => props.handleClick(props.children)}>
-    {props.children}
+      className={`button-container ${isOperator(props.children) ? "operator" : ""}`.trimEnd()}
+      /* El event listener se agrega así para agregar el valor del botón
+    a la pantalla. 
+    handleClick es el nombre del prop que le pasamos desde App.
+    Al hacer click llama a una función anónima que estamos creando */
+      onClick={() => props.handleClick(props.children)}>
+      {props.children}
     </div>
   )
 }

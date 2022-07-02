@@ -1,4 +1,4 @@
-.button-container{
+.button-container {
     height: 83px;
     display: flex;
     /* propiedad de longitud flexible, 
@@ -11,7 +11,10 @@
     font-weight: bold;
     font-size: 38px;
     background-color: #1b1b32;
-    color: white ;
+    background-color: #1e243d;
+
+
+    color: white;
     border-radius: 25px;
     border: 2px solid white;
     margin: 4px;
@@ -19,16 +22,21 @@
     /* para que texto no se pueda seleccionar: */
     user-select: none;
 }
-.button-container:hover{
+
+.button-container:hover {
     background-color: #5a01a7;
+    background-color: #f16c18;
+
 }
 
+.operator {
+    background-color: #00471b;
+    background-color: #57657d;
 
-.operator{
-background-color: #00471b;
 }
 
-.operator:hover{
-background-color: #ff6600;
-}
+.operator:hover {
+    background-color: #ff6600;
+    background-color: #c64235;
 
+}
