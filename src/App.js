@@ -91,10 +91,13 @@ function App() {
             handleClear={() => setInput("")} >
             Clear
           </BtnClear>
+
+
         </div>
+        <footer><p>2022 | <a href="https://www.linkedin.com/in/roxypoceros/" target="_blank" rel="noreferrer">  <Linkedin /> Roxana Hernández </a>   </p> </footer>
+
       </div>
 
-      <footer><p>2022 | <a href="https://www.linkedin.com/in/roxypoceros/" target="_blank" rel="noreferrer">  <Linkedin /> Roxana Hernández </a>   </p> </footer>
 
     </div>
 

@@ -1,5 +1,5 @@
 .btnClear {
-    height: 80px;
+    height: 60px;
     /* em es una unidad relativa, aquí va a ser
   1.6 veces el tamaño de la letra de su contenedor */
     font-size: 1.6rem;
